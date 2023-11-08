@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.home-page {
+  text-align: center;
+  position: relative;
+  background-color: #f0f0f0;
+  min-height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Hide overflow content from the background */
+}
+
+.home-main {
+  background-image: url("../images/ajali.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-title,
+.home-text {
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: red;
+  top: 30%;
+}
+
+.home-text {
+  font-size: 2rem;
+  font-weight: 500;
+  top: 37%;
+}
+
+.emergency-info {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.621);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 200px;
+  padding: 2px;
+  width: 50%;
+  height: 150px;
+  transform: translateY(80%);
+}
+
+.emergency-card {
+  text-align: center;
+}
+
+.emergency-card h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: red;
+}
+
+.emergency-card p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+  margin-top: 0;
+}
+
+.emergency-info:hover {
+  transform: translateY(80%) scale(1.05);
+}
+
+

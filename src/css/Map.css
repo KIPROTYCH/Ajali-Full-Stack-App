@@ -1,0 +1,13 @@
+.map-container {
+  width: 1000px;
+  height: 610px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Map element */
+.map {
+  width: 100%;
+  height: 100%;
+}

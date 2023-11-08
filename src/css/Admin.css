@@ -1,0 +1,93 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(210, 179, 179, 0.74);
+}
+
+.admin-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.admin-button {
+  width: 100%;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.admin-button.loading {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  margin: 10px 0;
+  text-align: center;
+  color: #5cb85c;
+  font-weight: bold;
+  animation: fade-in 1s;
+}
+
+.dashboard-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.dashboard-button:hover {
+  background-color: #ff0000; /* Dark red on hover */
+}
+
+/* Style for the button when admin data is valid */
+.dashboard-button.valid {
+  background-color: #990000; /* Darker red when valid */
+}

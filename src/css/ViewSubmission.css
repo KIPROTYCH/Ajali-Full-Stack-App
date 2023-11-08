@@ -1,0 +1,60 @@
+.view-submission-container {
+  background-color: #3498db;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.view-submission-container h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #2980b9;
+}
+
+.view-submission-container .form-group {
+  margin-top: 10px;
+}
+
+.view-submission-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.view-submission-container input[type="text"],
+.view-submission-container select,
+.view-submission-container textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.view-submission-container input[type="text"],
+.view-submission-container select {
+  background-color: #fff;
+}
+
+.view-submission-container textarea {
+  background-color: #fff;
+  resize: none;
+}
+
+.view-submission-container button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.view-submission-container button:hover {
+  background-color: #c0392b;
+}
