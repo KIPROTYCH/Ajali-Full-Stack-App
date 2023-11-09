@@ -37,7 +37,7 @@ Ajali's robust technology stack ensures seamless operation, rapid incident repor
 * https://www.figma.com/file/vjFlsIfdJwv4rDfotddYFq/Team-Ajali?type=design&node-id=0-1&mode=design&t=U0xYDESKQbVXp1vK-0
 
 ## Presentation Google Slides:
-
+* https://docs.google.com/presentation/d/1v_s8RYaGzMdR7IFhOP9JiZf9zyUA7lT7_B3CFddnD7w/edit#slide=id.g11daacbd15b_0_88
 ---
 
 ## Project Setup:
