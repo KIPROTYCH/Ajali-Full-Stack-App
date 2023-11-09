@@ -1,3 +1,4 @@
+
 // import React, { useState } from "react";
 // import axios from "axios";
 // import API_BASE_URL from "../config";
@@ -39,7 +40,10 @@
 //       );
 
 //       if (response.status === 201) {
+//         // Registration successful, show a message to inform the user
 //         setRegistered(true);
+//         // Redirect to the login page
+//         window.location.href = "/login";
 //       } else {
 //         setError("User registration failed. Please try again.");
 //       }
@@ -154,6 +158,7 @@ export default function SignUp() {
       if (response.status === 201) {
         // Registration successful, show a message to inform the user
         setRegistered(true);
+
         // Redirect to the login page
         window.location.href = "/login";
       } else {
@@ -175,7 +180,7 @@ export default function SignUp() {
     <div className="signup-container">
       <h1>Sign Up</h1>
       {!registered ? (
-        <form className="signup-form" onSubmit={handleRegistration}>
+        <form className="signup-form">
           <div className="form-group">
             <label htmlFor="username">Username</label>
             <input
@@ -206,7 +211,13 @@ export default function SignUp() {
               onChange={handleInputChange}
             />
           </div>
-          <button type="submit" className="signup-button">
+          <button
+            type="button"
+            className="signup-button"
+            onClick={() => {
+              handleRegistration();
+            }}
+          >
             Sign Up
           </button>
         </form>
