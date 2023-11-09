@@ -52,3 +52,14 @@ input {
 .login-button:hover {
   background: #0056b3;
 }
+
+
+
+.signup-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  color: darkred;
+}
